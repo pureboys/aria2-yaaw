@@ -1,0 +1,7 @@
+aria2:
+    image: oliverlin1989/aria2-yaaw
+    volumes:
+        - $HOME/Downloads:/data
+    ports:
+        - "6800:6800"
+        - "9100:8080"
